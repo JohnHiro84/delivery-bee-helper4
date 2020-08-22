@@ -69,11 +69,11 @@ export const updateOrderCompletedUtil = (id) => {
 ///////////////////////////////////comments
 
 export const getOrderComments = id => {
-  return axios.get(`/api/orders/${id}/comments`)
+  return axios.get(`https://immense-ridge-65848.herokuapp.com/api/orders/${id}/comments`)
 };
 
 export const writeComment = data => {
-  return axios.post('/api/comments/', data)
+  return axios.post('https://immense-ridge-65848.herokuapp.com/api/comments/', data)
 }
 
 
