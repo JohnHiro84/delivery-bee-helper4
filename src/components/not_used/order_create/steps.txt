@@ -1,0 +1,21 @@
+
+
+
+
+order_gather_from
+  get from location info
+
+order_gather_to
+  get to location info
+
+order_gather_instructions
+  get instructions info
+
+order_map
+  display map and final details
+
+order_checkout
+  open the stripe component
+  enter payment info
+      generate stripe payment
+      generate mongoDB record

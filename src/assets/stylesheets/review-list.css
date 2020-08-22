@@ -1,0 +1,15 @@
+.review-list {
+  text-align: center;
+  background-color: white;
+  padding-bottom: 3em;
+}
+
+.profile-container {
+  text-align: center;
+  background-color: white;
+  padding-top: 3em;
+}
+
+.profile-container h1 {
+  padding-bottom: 2em;
+}

@@ -1,0 +1,92 @@
+.comments-container > ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.comments-container > ul > li {
+  margin-bottom: 2em;
+}
+.comment-handle {
+  display: inline-block;
+  /* width: 90px; */
+  /* font-size: 20px; */
+  font-weight: 700;
+}
+
+.comment-text{
+  /* margin-left: 1em; */
+  display: inline-block;
+  font-size: 20px;
+  text-align: justify;
+  /* margin-left: 1em; */
+}
+.comment-date {
+  display: block;
+  font-size: 12px;
+  color: gray;
+  /* margin-left: 1em; */
+  margin-top: .3em;
+  margin-bottom: .3em;
+}
+
+.comment-filler {
+  display: block;
+  color: white;
+}
+
+.event-compose > input {
+  margin-left: 0;
+  margin-top: 1em;
+}
+
+.your-chat-comment {
+  float: left;
+  clear: both;
+  display: block;
+  text-align: left;
+  margin: 0 1em;
+}
+
+.thier-chat-comment {
+  float:right;
+  clear: both;
+  display: block;
+  text-align: right;
+  margin: 0 1em;
+}
+
+.comment-compose {
+  display: block;
+  clear: both;
+}
+
+.comment-compose > button, .comment-compose > textarea {
+  display: block;
+  margin: 1em auto;
+  border-radius: 5px;
+}
+
+.comment-input {
+  padding: .5em 8px;
+  width: 350px;
+  border: 2px solid gray;
+  font-size: 20px;
+  height: 3em;
+}
+
+.comment-button {
+  padding: 1em 8px;
+  border: 2px solid blue;
+  background-color: blue;
+  color: white;
+  font-weight: 700;
+  width: 366px;
+  cursor: pointer;
+
+}
+
+.comment-button:hover {
+  background-color: darkblue;
+  border: 2px solid darkblue;
+
+}

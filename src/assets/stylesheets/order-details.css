@@ -1,0 +1,78 @@
+.order-details {
+  text-align: center;
+  background-color: white;
+  padding: 0 0 3em 0;
+}
+
+/* //////////////// tabs styling */
+
+.order-details-nav {
+  list-style-type: none;
+  width: 100%;
+  padding-left: 0;
+  margin:0;
+}
+
+.order-details-nav > li {
+  display: inline-block;
+  width: 33%;
+  font-size: 22px;
+  padding: 16px 0;
+  cursor: pointer;
+}
+
+.order-details-nav > li:first-child {
+  border-left: 1px solid gainsboro;
+}
+
+.order-details-nav > li:hover {
+  background-color: rgb(245,245,245);
+}
+
+.active-tab {
+  /* border: 1px solid gainsboro; */
+  border-top: 1px solid gainsboro;
+  border-right: 1px solid gainsboro;
+  border-bottom: 0;
+  background-color: white;
+  font-weight: 700;
+}
+
+.inactive-tab {
+  /* border: 1px solid gainsboro; */
+  border-top: 1px solid gainsboro;
+  border-right: 1px solid gainsboro;
+  border-bottom: 0;
+  background-color: rgb(235,235,235);
+
+}
+
+/* ////////////location information */
+
+.general-information, .location-information, .comments-container {
+  margin-top: 3em;
+}
+
+.comments-container {
+  max-width: 700px;
+  margin: 3em auto;
+}
+
+.location-information > h3 {
+  margin-top: 2em;
+
+}
+
+.location-information-list {
+  list-style-type: none;
+  font-size: 20px;
+  padding-left: 0;
+}
+
+.location-information-list > li {
+  padding:.25em;
+}
+
+.general-information {
+
+}

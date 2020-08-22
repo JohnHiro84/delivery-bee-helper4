@@ -1,0 +1,9 @@
+.travel-time > ul {
+  list-style-type: none;
+  font-size: 20px;
+  padding-left: 0;
+}
+
+.travel-time > select {
+  padding: 8px;
+}

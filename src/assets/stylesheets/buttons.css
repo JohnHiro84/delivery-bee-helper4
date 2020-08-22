@@ -1,0 +1,41 @@
+/* ///////////////////general buttons */
+
+.button-large-primary {
+  background-color: darkgreen;
+  color: white;
+  margin: 1em 0em;
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+  padding: 1em 0em;
+  border-radius: 5px;
+  border: 0;
+  max-width: 600px;
+  cursor: pointer;
+  /* border: 1px solid gray; */
+}
+
+.button-large-secondary {
+  background-color: white;
+  color: gray;
+  font-weight: 700;
+  margin: 1em 0em;
+  text-align: center;
+  width: 100%;
+  padding: 1em 0em;
+  border-radius: 5px;
+  border: 0;
+  border: 2px solid darkgray;
+  max-width: 600px;
+  cursor: pointer;
+}
+
+.button-large-primary:hover {
+  background-color: green;
+}
+
+.button-large-secondary:hover {
+  border: 2px solid lightgray;
+  color: darkgray;
+
+}

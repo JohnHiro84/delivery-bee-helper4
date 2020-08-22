@@ -1,0 +1,44 @@
+
+.landing-container {
+   text-align: center;
+   background-color: white;
+}
+
+.landing {
+   position: relative;
+   text-align: center;
+   background-color: white;
+   min-height: 500px;
+}
+
+.landing img {
+  width: 100%;
+  max-width: 110px;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+.landing-centered-message {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  color: orange;
+  font-size: 20px;
+}
+
+.call-to-action-link {
+  padding: 1em 2em;
+  background-color: steelblue;
+  margin-top: 2em;
+  display: block;
+  border-radius: 10px;
+  text-decoration: none;
+  color:white;
+}
+
+.call-to-action-link:hover {
+  background-color:royalblue;
+}

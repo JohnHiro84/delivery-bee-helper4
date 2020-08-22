@@ -1,0 +1,135 @@
+.event-header {
+  background-color: white;
+  border-top: 2px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding: 8px 24px;
+}
+
+
+
+.event-date {
+  color:gray;
+}
+
+.event-title {
+  font-size: 34px;
+  font-weight: 700;
+  margin: .3em 0;
+}
+
+.event-host {
+  color:blue;
+}
+.event-body-right > p{
+  margin: 4px;
+}
+.event-details-bold {
+  font-weight: bold;
+  padding-top: 24px;
+}
+
+
+.event-body {
+  /* padding: 2em 1.5em; */
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* margin: 4.4rem 10%; */
+
+}
+
+.event-body-left {
+  /* display: inline-block; */
+  width: calc(60% - 74px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* width: 30em; */
+  /* margin: 0 .5rem 2.3rem .5rem; */
+  /* padding: 1em 2em 0em 2em; */
+  margin-left: 24px;
+  margin-top: 36px;
+  margin-right: 24px;
+  background-color: white;
+}
+.event-body-left > img {
+  max-height: 400px;
+}
+
+.event-body-right {
+  /* display: inline-block; */
+  width: calc(40% - 144px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin:  36px 36px;
+  padding: 24px 44px;
+  /* width: 12em; */
+  /* margin: 0 .5rem 2.3rem .5rem; */
+  /* padding: 1em 2em 0em 2em; */
+  background-color: white;
+  max-height: 320px;
+}
+
+.event-body-lower {
+  /* display: inline-block; */
+  width: calc(60% - 146px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin-left: 24px;
+  margin-top: 36px;
+  margin-bottom: 36px;
+  padding: 36px;
+  background-color: white;
+}
+
+/* ///whos going */
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.avatar-div {
+    width: 90px;
+    display: inline-block;
+    /* display: flex; */
+    /* flex-direction: column; */
+
+}
+.attendee-avatars {
+  display: inline-block;
+  /* width: 100%; */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+  /* padding-left: 24px; */
+  /* margin-top: 36px; */
+  padding-right: 24px;
+  background-color: white;
+}
+
+.attending-detail > h1 {
+  font-size: 1.5em;
+}
+
+.attending-button {
+    margin: 9px 0;
+    /* float: right; */
+    background-color: cornflowerblue;
+    padding: .5em;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.attending-button:hover {
+  background-color: blue;
+}

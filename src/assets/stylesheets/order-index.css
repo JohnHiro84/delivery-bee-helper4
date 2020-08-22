@@ -1,0 +1,8 @@
+
+.order-index-container {
+  padding: 1em;
+}
+
+.order-index-container > h1 {
+  text-align: center;
+}

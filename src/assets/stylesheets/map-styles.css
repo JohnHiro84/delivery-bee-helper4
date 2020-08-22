@@ -1,0 +1,17 @@
+.location-icon-map {
+  width: 30px;
+  height: 39px;
+  position: absolute;
+  left: -15px;
+  top: -39px;
+}
+
+.location-icon-text {
+  width: 30px;
+  height: 39px;
+}
+
+
+.confirm-details {
+  text-align: center;
+}

@@ -1,0 +1,9 @@
+.google-maps-icon > img {
+  max-width: 100px;
+  font-size: 16px;
+}
+
+.google-maps-icon > span {
+  display: block;
+  font-size: 16px;
+}

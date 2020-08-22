@@ -1,0 +1,65 @@
+.create-review-button {
+  padding: 1em 8px;
+  border: 2px solid blue;
+  background-color: blue;
+  color: white;
+  font-weight: 700;
+  width: 366px;
+  border-radius: 5px;
+}
+
+.create-review-button:hover {
+  background-color: darkblue;
+  border: 2px solid darkblue;
+
+}
+
+
+.review-form-errors {
+  list-style-type: none;
+}
+
+.review-form-errors > li {
+  list-style-type: none;
+  color: red;
+  padding: .5em 0;
+}
+
+.star-checked {
+  color: orange;
+}
+
+.fa-star {
+  padding: 5px;
+}
+
+
+/* //////////////////////////// displayed review */
+
+.displayed-review {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.displayed-review > li{
+  /* list-style-type: none; */
+  padding: .5em;
+}
+
+.review-handle {
+  display: inline-block;
+  font-weight: 700;
+}
+
+.review-message{
+  display: inline-block;
+  font-size: 20px;
+  text-align: justify;
+}
+.review-date {
+  display: block;
+  font-size: 12px;
+  color: gray;
+  margin-top: .3em;
+  margin-bottom: .3em;
+}
