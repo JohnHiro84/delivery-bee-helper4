@@ -108,7 +108,6 @@ class OrderDetailMap extends Component {
           location="drop_off"
         />);
 
-      console.log(process.env);
       
           return (
             <section className="order-details-map">
