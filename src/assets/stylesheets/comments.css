@@ -45,6 +45,7 @@
   display: block;
   text-align: left;
   margin: 0 1em;
+  max-width: 50%;
 }
 
 .thier-chat-comment {
@@ -53,6 +54,8 @@
   display: block;
   text-align: right;
   margin: 0 1em;
+  max-width: 50%;
+
 }
 
 .comment-compose {
